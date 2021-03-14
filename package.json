@@ -1,0 +1,17 @@
+{
+  "name": "hogehoge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy:dev": "sls deploy --stage dev",
+    "deploy:prd": "sls deploy --stage prd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^2.29.0"
+  },
+  "devDependencies": {}
+}
